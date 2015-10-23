@@ -1,9 +1,9 @@
 <?php
-namespace Phirational\LaravelGeoIP2\Console;
+namespace CsanadNovak\LaravelGeoIP2\Console;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command;
-use Phirational\LaravelGeoIP2\GeoIP2Update;
+use CsanadNovak\LaravelGeoIP2\GeoIP2Update;
 
 class UpdateCommand extends Command
 {

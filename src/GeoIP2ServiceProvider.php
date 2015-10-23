@@ -1,7 +1,7 @@
-<?php namespace Phirational\LaravelGeoIP2;
+<?php namespace CsanadNovak\LaravelGeoIP2;
 
 use Illuminate\Support\ServiceProvider;
-use Phirational\LaravelGeoIP2\Console\UpdateCommand;
+use CsanadNovak\LaravelGeoIP2\Console\UpdateCommand;
 
 class GeoIP2ServiceProvider extends ServiceProvider
 {
@@ -19,7 +19,7 @@ class GeoIP2ServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('phirational/laravel-geoip2', null, __DIR__);
+        $this->package('CsanadNovak/laravel-geoip2', null, __DIR__);
     }
 
     /**
