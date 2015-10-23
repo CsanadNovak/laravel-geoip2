@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Phirational\\LaravelGeoIP2\\": "src/"
+            "CsanadNovak\\LaravelGeoIP2\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Phirational\\LaravelGeoIP2\\Test\\": "tests/"
+            "CsanadNovak\\LaravelGeoIP2\\Test\\": "tests/"
         }
     },
     "extra": {
@@ -45,5 +45,5 @@
             "dev-master": "1.0-dev"
         }
     },
-    "minimum-stability": "dev-update"
+    "minimum-stability": "stable"
 }
