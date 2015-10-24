@@ -1,6 +1,6 @@
 {
     "name": "csanadnovak/laravel-geoip2",
-    "description": "Laravel wrapper for MaxMind GeoIP2",
+    "description": "Laravel 5.1 wrapper for MaxMind GeoIP2",
     "keywords": [
         "laravel",
         "geoip",

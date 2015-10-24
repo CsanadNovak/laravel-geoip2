@@ -19,7 +19,7 @@ class GeoIP2ServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('CsanadNovak/laravel-geoip2', null, __DIR__);
+        $this->package('csanadnovak/laravel-geoip2', null, __DIR__);
     }
 
     /**
